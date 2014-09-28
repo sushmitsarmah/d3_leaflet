@@ -8,9 +8,32 @@ a {
 
 #map { height: 580px; }
 .circle {
-	border-radius: 50%;
-	width: 2px;
-	height: 2px; 
-	background-color: #3182bd;
+	// border-radius: 50%;
+	// width: 2px;
+	// height: 2px; 
+	// background-color: #3182bd;
+	background-image: url(../images/radio.svg);
+	background-size: 20px 20px;
 	/* width and height can be anything, as long as they're equal */
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.tick text {
+	font-size: 10px
 }

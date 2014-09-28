@@ -5,12 +5,16 @@
   "keywords": [
     "leaflet",
     "d3",
-    "underscore"
+    "underscore",
+    "jquery",
+    "bootstrap"
   ],
   "dependencies":{
     "leaflet": "latest",
     "d3": "latest",
-    "underscore": "latest"   
+    "underscore": "latest",
+    "jquery": "latest",
+    "bootstrap": "latest"   
   },
   "authors": [
     "sushmit sarmah"
