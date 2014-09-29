@@ -9,6 +9,8 @@
     "express": "3.4.0",
     "ejs": "*",
     "less-middleware": "*",
-    "bower": "*"
+    "bower": "*",
+    "passport": "*",
+    "passport-local": "*"
   }
 }

@@ -73,7 +73,7 @@
 
   	}, function(err,data){
 
-  		data = data.slice(0,100);
+  		// data = data.slice(0,100);
   		// add a marker in the given location, attach some popup content to it and open the popup
   		var licensees = _.uniq(_.pluck(data,'LICENSEE')),
   			overlays = {};
